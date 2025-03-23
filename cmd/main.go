@@ -25,7 +25,7 @@ import (
 // @version 1.0
 // @description	Сервер с бд, для операций CRUD
 // @host localhost:8080
-// @BasePath /api/users
+// @BasePath /
 // @in header
 // @name Authorization
 

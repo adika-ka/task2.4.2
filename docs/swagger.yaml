@@ -1,4 +1,4 @@
-basePath: /api/users
+basePath: /
 definitions:
   model.User:
     properties:

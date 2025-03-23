@@ -293,7 +293,7 @@ const docTemplate = `{
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
 	Host:             "localhost:8080",
-	BasePath:         "/api/users",
+	BasePath:         "/",
 	Schemes:          []string{},
 	Title:            "Repository",
 	Description:      "Сервер с бд, для операций CRUD",
