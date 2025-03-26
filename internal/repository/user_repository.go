@@ -35,7 +35,7 @@ func (r *userRepo) Create(ctx context.Context, user model.User) (int, error) {
 }
 
 func (r *userRepo) GetByID(ctx context.Context, id int) (model.User, error) {
-	query := `SELECT id, email, password_hash, first_name, last_name, created_at, updated_at
+	query := `SELECT id, email, password_hash, first_name, last_name, created_at, updated_at, deleted_at
 	FROM users WHERE id = $1`
 
 	var user model.User
